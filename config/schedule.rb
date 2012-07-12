@@ -20,13 +20,13 @@
 # Learn more: http://github.com/javan/whenever
 
 every :thursday, :at => '7 pm' do # Use any day of the week or :weekend, :weekday
-  runner "ChaosMonkey.unchain"
+  command "script/unchain"
 end
 
 every :thursday, :at => '8:30 pm' do # Use any day of the week or :weekend, :weekday
-  runner "ChaosMonkey.unchain"
+  command "script/unchain"
 end
 
 every :thursday, :at => '9:30 pm' do # Use any day of the week or :weekend, :weekday
-  runner "ChaosMonkey.unchain"
+  command "script/unchain"
 end
