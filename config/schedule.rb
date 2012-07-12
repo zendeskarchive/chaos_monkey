@@ -19,6 +19,10 @@
 
 # Learn more: http://github.com/javan/whenever
 
+every :thursday, :at => '5:30 pm' do # Use any day of the week or :weekend, :weekday
+  command "script/unchain"
+end
+
 every :thursday, :at => '7 pm' do # Use any day of the week or :weekend, :weekday
   command "script/unchain"
 end
