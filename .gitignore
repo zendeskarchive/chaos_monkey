@@ -1,5 +1,5 @@
 *.gem
-config/
+config/cloud.yml
 .bundle
 Gemfile.lock
 pkg/*
